@@ -29,7 +29,7 @@ services:
     image: yam1noko/kittygram_gateway
     env_file: .env
     ports:
-      - "9000:80"
+      - "80:80"
     volumes:
       - static:/staticfiles/
     depends_on:
